@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR2d0016/v1
+canonical_location: https://kanripo.org/bkk/KR2d0016/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 明史鈔略
+  date: '2015-09-12 00:40:58.458939'
+  source:
+    repository: kanripo
+    path: KR2d0016
+  base_edition: SBCK
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- {short: SBCK, label: 【四部叢刊】}
+assets:
+  parts:
+  - {seq: 1, filename: KR2d0016_001.yaml, hash: 'sha256:3dcf8f1b66bf40d5aef9ffb2a9505d5201e674d52033e7648de9daa4c3bc192e'}
+  - {seq: 2, filename: KR2d0016_002.yaml, hash: 'sha256:21f0410b113a8452a5cd4ef3d96f299dd61cdde3e80ab65c209977ecd8193904'}
+  - {seq: 3, filename: KR2d0016_003.yaml, hash: 'sha256:f312326ef12d3dc8b31ff99d120a3a9bc36ecf74ef84d3254fd87d47475e9185'}
+  - {seq: 4, filename: KR2d0016_004.yaml, hash: 'sha256:db6071c7284971ba19513ba5b6fb9dae61873046e3bfc7ed7f1030d7a99ac73d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2d0016_001.markers.yaml, hash: 'sha256:5dff2bbe7a1bab184f5ee833f9aa326d53231eeb5dca52766644723aeb7af364'}
+  - {seq: 2, role: markers, filename: assets/KR2d0016_002.markers.yaml, hash: 'sha256:fa339957d57bc3711dc8329f76f7b79fbe9770c1ee047342f4ec4a54af16c1a4'}
+  - {seq: 3, role: markers, filename: assets/KR2d0016_003.markers.yaml, hash: 'sha256:c86afbd48a2bc91ae16960ec0a79af8b4e8bc7475fcc5f22f5c2f12d07735fa4'}
+  - {seq: 4, role: markers, filename: assets/KR2d0016_004.markers.yaml, hash: 'sha256:5000b4033ba75a6a798ae14f7bf88178b4f7d7f0ee0cead24a5610f9ceef5bf7'}
+table_of_contents:
+- ref: {seq: 1, marker_id: KR2d0016_SBCK_001-1a, span: [body, 0, 30935]}
+  label: juan 001
+  type: section
+  level: 1
+- ref: {seq: 2, marker_id: KR2d0016_SBCK_002-1a, span: [body, 0, 33050]}
+  label: juan 002
+  type: section
+  level: 1
+- ref: {seq: 3, marker_id: KR2d0016_SBCK_003-1a, span: [body, 0, 42949]}
+  label: juan 003
+  type: section
+  level: 1
+- ref: {seq: 4, marker_id: KR2d0016_SBCK_004-1a, span: [body, 0, 56232]}
+  label: juan 004
+  type: section
+  level: 1
+hash: sha256:633f7cac4e98d96ea9e1999332f457e7c42c0e922377fa4d6c14cf7373f1ba35
